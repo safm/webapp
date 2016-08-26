@@ -1,0 +1,25 @@
+{
+  "name": "restify-boilerplate",
+  "version": "0.0.1",
+  "description": "API part of the complete ecosystem",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "restify",
+    "api"
+  ],
+  "author": "Sarfaraz Merchant",
+  "license": "ISC",
+  "dependencies": {
+    "restify": "^4.1.1",
+    "restify-oauth2": "git://github.com/domenic/restify-oauth2.git#cf5837d6b695c3d98264e53854b3b6d8f1fd4d2f",
+    "underscore": "^1.8.3",
+    "uuid": "^2.0.2"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  }
+}
